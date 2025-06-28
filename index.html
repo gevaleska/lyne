@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Meta Dasar -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Lyne Digital ID" />
+<meta name="description" content="Lyne Digital adalah penyedia jasa pembuatan website, copywriting, media pembelajaran, dan custom project digital untuk guru, UMKM, dan personal." />
+
+<!-- Judul Halaman -->
+<title>Lyne Digital - Jasa Website, Media Pembelajaran, dan Copywriting Profesional</title>
+
+<!-- Open Graph (Sosial Media Preview - WA, FB, IG, LinkedIn) -->
+<meta property="og:title" content="Lyne Digital - Jasa Website & Media Pembelajaran Profesional" />
+<meta property="og:description" content="Kami bantu guru, UMKM, dan personal membangun solusi digital seperti website, media pembelajaran, hingga artikel ilmiah secara profesional & affordable." />
+<meta property="og:image" content="https://lynedigital.my.id/images/thumbnail.jpg" />
+<meta property="og:url" content="https://lynedigital.my.id" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Lyne Digital - Jasa Website & Media Edukasi" />
+<meta name="twitter:description" content="Buat website keren, copywriting edukatif, dan media pembelajaran digital bareng tim Lyne!" />
+<meta name="twitter:image" content="https://lynedigital.my.id/images/thumbnail.jpg" />
+
+<!-- Favicon (jika sudah punya) -->
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+
+  <!-- Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Link ke CSS utama -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+
+  <title>Lyne Digital - Solusi Digital Terpadu</title>
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="logo.png" alt="Logo Lyne" class="logo" />
+    </div>
+
+    <div class="nav-center">
+      <h1 id="rotating-text">Lyne Digital</h1>
+    </div>
+
+    <div class="nav-right">
+      <a href="https://instagram.com/lynedigital.id" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@lynedigital.id" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/6281313429098" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:lynedigital.id@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </header>
+
+  <!-- Script Rotating Text -->
+  <script>
+    const texts = [
+      "Lyne Digital",
+      "Digital Creative Service",
+      "Solusi kreatif untuk website, media, dan konten Anda."
+    ];
+
+    let currentIndex = 0;
+    const textElement = document.getElementById("rotating-text");
+
+    function rotateText() {
+      textElement.style.opacity = 0;
+      setTimeout(() => {
+        textElement.textContent = texts[currentIndex];
+        textElement.style.opacity = 1;
+        currentIndex = (currentIndex + 1) % texts.length;
+      }, 300); // transisi fade cepat
+    }
+
+    setInterval(rotateText, 3000); // 3 detik tiap teks
+  </script>
+
+<nav class="main-nav">
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#service">Service</a>
+        <ul class="dropdown-menu">
+          <li><a href="#layanan-kami">Pembuatan Website</a></li>
+          <li><a href="#layanan-kami">Copywriting</a></li>
+          <li><a href="#layanan-kami">Desain Media Pembelajaran</a></li>
+          <li><a href="#layanan-kami">3D Desain</a></li>
+          <li><a href="#layanan-kami">Custom Project</a></li>
+        </ul>
+      </li>
+      </li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimoni">Testimoni</a></li>
+      <li class="dropdown">
+        <a href="#">Informasi & Pemesanan</a>
+        <ul class="dropdown-menu">
+          <li><a href="https://wa.me/6281313429098" target="_blank">WhatsApp</a></li>
+          <li><a href="mailto:lynedigital.id@gmail.com">Email</a></li>
+        </ul>
+      </li>
+      <li><a href="#Tentang-Kami">Tentang Kami</a></li>
+    </ul>
+  </nav>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<section class="hero-section">
+    <div class="hero-container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hero-text">
+        <h1 id="rotating-text-hero">Lyne Digital</h1>
+        <p>Digital Creative Service</p>
+        <p class="subtext">Jasa digital all-in-one: Website profesional, copywriting yang menjual, desain edukatif, hingga custom project sesuai imajinasi Anda!</p>
+        <a href="https://wa.me/6281313429098" class="cta-button">Konsultasi Sekarang</a>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+        <img src="https://img.freepik.com/premium-photo/business-analytics-illustrations-human-hands-working-laptop_488220-4939.jpg?w=826" alt="Ilustrasi Digital" />
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="layanan-kami">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Layanan Kami</h2>
+      <p>Kami memberikan solusi digital kreatif yang dirancang untuk kebutuhan Anda.</p>
+    </div>
+  
+    <div class="services-container">
+      <div class="service-card" id="Pembuatan Website" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-code service-icon"></i>
+        <h3>Pembuatan Website</h3>
+        <p>Website profesional, cepat, mobile friendly dan ramah SEO untuk bisnis atau personal Anda.</p>
+      </div>
+  
+      <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-pen-nib service-icon"></i>
+        <h3>Copywriting</h3>
+        <p>Tulisan yang menjual, mengajak, dan menyampaikan pesan merek Anda secara efektif.</p>
+      </div>
+  
+      <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-chalkboard-teacher service-icon"></i>
+        <h3>Media Pembelajaran</h3>
+        <p>Desain dan produksi media pembelajaran digital yang interaktif dan edukatif.</p>
+      </div>
+  
+      <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-cube service-icon"></i>
+        <h3>Desain 3D</h3>
+        <p>Visualisasi produk dan desain tiga dimensi untuk berbagai kebutuhan profesional Anda.</p>
+      </div>
+  
+      <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-tools service-icon"></i>
+        <h3>Custom Project</h3>
+        <p>Layanan fleksibel sesuai dengan ide atau kebutuhan unik digital Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Tentang-Kami" class="about-section">
+    <div class="about-container">
+      <div class="about-text" data-aos="fade-up">
+        <h2>Tentang Kami</h2>
+        <p>
+          Lyne Digital adalah studio digital kreatif yang berfokus pada solusi pembuatan website, copywriting, desain media pembelajaran, desain media pembelajaran, dan layanan custom lainnya.
+        </p>
+        <ul class="about-highlights">
+          <li><i class="fas fa-check-circle"></i> Tim profesional & berpengalaman</li>
+          <li><i class="fas fa-check-circle"></i> Layanan kreatif & sesuai kebutuhan</li>
+          <li><i class="fas fa-check-circle"></i> Komunikasi cepat & transparan</li>
+        </ul>
+      </div>
+      <div class="about-image" data-aos="fade-left">
+        <img src="logo2.png" alt="Ilustrasi Tentang Kami" />
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Portofolio Kami</h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="website">Website</button>
+        <button class="filter-btn" data-filter="copywriting">Copywriting</button>
+        <button class="filter-btn" data-filter="media">Media Pembelajaran</button>
+        <button class="filter-btn" data-filter="desain">3D Desain</button>
+        <button class="filter-btn" data-filter="custom">Custom Project</button>
+      </div>
+  
+      <div class="portfolio-slider-container">
+  <button class="slider-btn left" onclick="moveSlide(-1)">&#10094;</button>
+
+  <div class="portfolio-slider">
+    <div class="portfolio-slide">
+      <div class="portfolio-item website">
+        <img src="pwebsite1.png" alt="Website Project 1">
+        <h3>Website Bimbel</h3>
+      </div>
+      <div class="portfolio-item copywriting">
+        <img src="assets/portfolio/copy1.jpg" alt="Copywriting Project">
+        <h3>Copywriting Project</h3>
+      </div>
+      <div class="portfolio-item media">
+        <img src="pmedia1.png" alt="Media Pembelajaran">
+        <h3>Buku Unboxing Jiometori Terintegrasi AR</h3>
+      </div>
+      <div class="portfolio-item desain">
+        <img src="p3d1.png" alt="3D Desain">
+        <h3>DIY Robotics Kit</h3>
+      </div>
+      <div class="portfolio-item custom">
+        <img src="pcustomproject1.png" alt="Custom Project">
+        <h3>Tugas Akhir</h3>
+      </div>
+    </div>
+
+    <div class="portfolio-slide">
+      <div class="portfolio-item custom">
+        <img src="pcustomproject2.png" alt="Custom Project">
+        <h3>Penulisan Artikel</h3>
+      </div>
+      <!-- Tambahkan item berikutnya di sini jika ada -->
+    </div>
+  </div>
+
+  <button class="slider-btn right" onclick="moveSlide(1)">&#10095;</button>
+</div>
+    </div>
+<script>
+  let currentSlide = 0;
+  const slider = document.querySelector(".portfolio-slider");
+  const totalSlides = document.querySelectorAll(".portfolio-slide").length;
+
+  function moveSlide(direction) {
+    currentSlide += direction;
+
+    if (currentSlide < 0) currentSlide = 0;
+    if (currentSlide >= totalSlides) currentSlide = totalSlides - 1;
+
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+</script>
+
+    <!-- Modal Image Viewer -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImage");
+  const closeBtn = document.querySelector(".close");
+
+  // Tangani klik pada semua gambar di dalam portfolio-item
+  document.querySelectorAll(".portfolio-item img").forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+      modalImg.alt = img.alt;
+    });
+  });
+
+  // Tombol close
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+  };
+
+  // Tutup jika klik di luar gambar
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  };
+</script>
+
+  </section>
+  <script>
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+  
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelector('.filter-btn.active').classList.remove('active');
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+  
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.classList.contains(filter)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+<section id="testimoni" class="testimoni-section">
+    <div class="container">
+      <h2 class="section-title">Apa Kata Klien Kami</h2>
+      <div class="testimoni-wrapper">
+        <div class="testimoni-card">
+          <img src="user.png" alt="Klien 1" class="user-img">
+          <p class="user-quote">"Pelayanan sangat profesional dan hasilnya memuaskan!"</p>
+          <h4 class="user-name">Febriani</h4>
+          <span class="user-company">Owner Siriusly</span>
+        </div>
+        <div class="testimoni-card">
+          <img src="user.png" alt="Klien 2" class="user-img">
+          <p class="user-quote">"Saya sangat merekomendasikan Lyne Digital untuk bisnis digital."</p>
+          <h4 class="user-name">Adit Pratama</h4>
+          <span class="user-company">Guru</span>
+        </div>
+        <div class="testimoni-card">
+          <img src="user.png" alt="Klien 3" class="user-img">
+          <p class="user-quote">"Penulisan artikel disini tepat sasaran, puas dengan hasilnya"</p>
+          <h4 class="user-name">Dewi</h4>
+          <span class="user-company">Mahasiswa</span>
+        </div>
+        <!-- Tambahkan testimoni lainnya -->
+      </div>
+    </div>
+  </section>
+
+  <!-- HTML bagian akhir -->
+<script>
+    // Animasi saat scroll
+    const testimoniCards = document.querySelectorAll('.testimoni-card');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.2
+    });
+  
+    testimoniCards.forEach(card => {
+      observer.observe(card);
+    });
+  </script>
+  
+  </body>
+  </html>
+
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+      
+      <div class="faq-item">
+        <button class="faq-question">Berapa lama pengerjaan website? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Durasi pengerjaan website standar antara 7 hingga 14 hari, tergantung kompleksitas dan fitur yang diminta.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Apakah bisa konsultasi dulu sebelum order? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Tentu! Kami siap mendengarkan kebutuhan Anda terlebih dahulu tanpa biaya apapun.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Apakah hasil desain bisa direvisi? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Bisa. Kami memberikan hingga 2x revisi gratis untuk memastikan hasil sesuai harapan Anda.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Apa saja metode pembayaran yang diterima? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Kami menerima pembayaran melalui transfer bank, e-wallet, dan QRIS.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Bagaimana cara memesan layanan Lyne Digital? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Hubungi kami via WhatsApp atau email. Kami akan bantu proses dari konsultasi hingga pengerjaan.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Apakah tersedia paket bulanan atau langganan? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer">
+          <p>Ya, tersedia paket kerja sama jangka panjang seperti maintenance website, konten rutin, atau branding bulanan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+  
+    faqItems.forEach(item => {
+      item.querySelector('.faq-question').addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+<section class="cta-section">
+    <div class="cta-container">
+      <h2>Siap Meningkatkan Bisnismu ke Level Selanjutnya?</h2>
+      <p>Kami siap membantu dari perencanaan hingga eksekusi digital kreatif terbaik.</p>
+      <a href="https://wa.me/6281313429098" class="cta-button" target="_blank">Hubungi Kami Sekarang</a>
+    </div>
+  </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <img src="logo.png" alt="Logo Lyne Digital" class="footer-logo">
+            <p>Lyne Digital adalah layanan digital kreatif yang membantu Anda membangun kehadiran online secara profesional dan efektif.</p>
+          </div>
+      
+          <div class="footer-column">
+            <h3>Navigasi</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#tentang-kami">Tentang Kami</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h3>Hubungi Kami</h3>
+            <ul class="contact-footer">
+              <li><a href="https://wa.me/6281313429098" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+              <li><a href="mailto:lynedigital.id@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+              <li><a href="https://instagram.com/lynedigital.id" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="https://tiktok.com/@lynedigital.id" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; <span id="year"></span> Lyne Digital. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+      
+  
+</body>
+</html>
