@@ -14,6 +14,8 @@ body {
   background-color: #ffffff;
   color: #332D56;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* Responsive Typography */
@@ -36,17 +38,24 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   background-color: #332D56;
   color: #fff;
   position: sticky;
   top: 0;
   z-index: 100;
+  height: 100px; /* tambahkan ini */
+  box-sizing: border-box;
+  isolation: isolate;
+}
+.navbar-placeholder {
+  height: 2px;
 }
 
+
 .nav-left .logo {
-  height: 60px;
-  width: 150px;
+  height: 100px;
+  width: 120px;
 }
 
 .nav-center h1 {
@@ -895,3 +904,4 @@ p {
   font-size: 0.85rem;
   color: #aaa;
 }
+

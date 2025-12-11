@@ -6,10 +6,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="Lyne Digital ID" />
-<meta name="description" content="Lyne Digital adalah penyedia jasa pembuatan website, copywriting, media pembelajaran, dan custom project digital untuk guru, UMKM, dan personal." />
+<meta name="description" content="Lyne Digital adalah layanan digital yang menyediakan jasa pembuatan website, copywriting, media pembelajaran, serta custom project berbasis teknologi untuk guru, UMKM, dan individu yang ingin mengembangkan kehadiran digital secara profesional. Konten dan layanan dirancang agar mudah digunakan, responsif, dan mendukung kebutuhan branding maupun pembelajaran." />
 
 <!-- Judul Halaman -->
-<title>Lyne Digital - Jasa Website, Media Pembelajaran, dan Copywriting Profesional</title>
+<title>Lyne Digital | Jasa Pembuatan Website Profesional, Media Pembelajaran, dan Copywriting</title>
 
 <!-- Open Graph (Sosial Media Preview - WA, FB, IG, LinkedIn) -->
 <meta property="og:title" content="Lyne Digital - Jasa Website & Media Pembelajaran Profesional" />
@@ -47,11 +47,11 @@
 </head>
 
 <body>
-
+  <script src="rotating-text.js"></script>
   <!-- Header / Navbar -->
   <header class="navbar">
     <div class="nav-left">
-      <img src="logo.png" alt="Logo Lyne" class="logo" />
+      <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765379657/Lyne_Digital_PNG_scu7fj.png" alt="Logo Lyne" class="logo" />
     </div>
 
     <div class="nav-center">
@@ -66,28 +66,6 @@
     </div>
   </header>
 
-  <!-- Script Rotating Text -->
-  <script>
-    const texts = [
-      "Lyne Digital",
-      "Digital Creative Service",
-      "Solusi kreatif untuk website, media, dan konten Anda."
-    ];
-
-    let currentIndex = 0;
-    const textElement = document.getElementById("rotating-text");
-
-    function rotateText() {
-      textElement.style.opacity = 0;
-      setTimeout(() => {
-        textElement.textContent = texts[currentIndex];
-        textElement.style.opacity = 1;
-        currentIndex = (currentIndex + 1) % texts.length;
-      }, 300); // transisi fade cepat
-    }
-
-    setInterval(rotateText, 3000); // 3 detik tiap teks
-  </script>
 
 <nav class="main-nav">
     <ul class="nav-links">
@@ -125,7 +103,7 @@
       <div class="hero-text">
         <h1 id="rotating-text-hero">Lyne Digital</h1>
         <p>Digital Creative Service</p>
-        <p class="subtext">Jasa digital all-in-one: Website profesional, copywriting yang menjual, desain edukatif, hingga custom project sesuai imajinasi Anda!</p>
+        <p class="subtext">Lyne Digital adalah layanan digital yang menyediakan jasa pembuatan website, copywriting, media pembelajaran, serta custom project berbasis teknologi untuk guru, UMKM, dan individu yang ingin mengembangkan kehadiran digital secara profesional. Konten dan layanan dirancang agar mudah digunakan, responsif, dan mendukung kebutuhan branding maupun pembelajaran.</p>
         <a href="https://wa.me/6281313429098" class="cta-button">Konsultasi Sekarang</a>
       </div>
       <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
@@ -150,9 +128,15 @@
       <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="200">
         <i class="fas fa-pen-nib service-icon"></i>
         <h3>Copywriting</h3>
-        <p>Tulisan yang menjual, mengajak, dan menyampaikan pesan merek Anda secara efektif.</p>
+        <p>Konten Persuasif untuk Meningkatkan Penjualan dan Branding Anda.</p>
       </div>
-  
+      
+      <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-pen-nib service-icon"></i>
+        <h3>Academic & Professional Writing Services</h3>
+        <p>Tulisan ilmiah yang rapi, terstruktur, dan sesuai kaidah akademik. Cocok untuk guru, mahasiswa, atau institusi pendidikan.</p>
+      </div>
+
       <div class="service-card" id="Pembuatan Website data-aos="fade-up" data-aos-delay="300">
         <i class="fas fa-chalkboard-teacher service-icon"></i>
         <h3>Media Pembelajaran</h3>
@@ -178,7 +162,7 @@
       <div class="about-text" data-aos="fade-up">
         <h2>Tentang Kami</h2>
         <p>
-          Lyne Digital adalah studio digital kreatif yang berfokus pada solusi pembuatan website, copywriting, desain media pembelajaran, desain media pembelajaran, dan layanan custom lainnya.
+          Lyne Digital adalah studio digital kreatif yang menyediakan solusi pembuatan website, copywriting, desain media pembelajaran, dan berbagai layanan custom berbasis teknologi. Kami membantu guru, UMKM, dan individu membangun kehadiran digital yang profesional, modern, dan sesuai kebutuhan.
         </p>
         <ul class="about-highlights">
           <li><i class="fas fa-check-circle"></i> Tim profesional & berpengalaman</li>
@@ -187,7 +171,7 @@
         </ul>
       </div>
       <div class="about-image" data-aos="fade-left">
-        <img src="logo2.png" alt="Ilustrasi Tentang Kami" />
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765379657/Lyne_Digital_PNG_scu7fj.png" alt="Ilustrasi Tentang Kami" />
       </div>
     </div>
   </section>
@@ -199,6 +183,7 @@
     once: true
   });
 </script>
+
 
 <section id="portfolio" class="portfolio-section">
     <div class="container">
@@ -218,32 +203,42 @@
   <div class="portfolio-slider">
     <div class="portfolio-slide">
       <div class="portfolio-item website">
-        <img src="pwebsite1.png" alt="Website Project 1">
-        <h3>Website Bimbel</h3>
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765380875/pwebsite1_b85vro.png" alt="Website Project 1">
+        <h3>Website Siriusly Education</h3>
+      </div>
+      <div class="portfolio-item website">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765381588/Poertpolio_1_vdynip.png" alt="Website Project 1">
+        <h3>Website Bimbel Garasi Cerdas</h3>
+      </div>
+      <div class="portfolio-item website">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765382604/Poertpolio_2_tglajc.png" alt="Website Project 1">
+        <h3>Website Siriusly Digital Hub</h3>
       </div>
       <div class="portfolio-item copywriting">
-        <img src="assets/portfolio/copy1.jpg" alt="Copywriting Project">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765380873/pcustomproject1_vhkszd.png" alt="Copywriting Project">
         <h3>Copywriting Project</h3>
       </div>
       <div class="portfolio-item media">
-        <img src="pmedia1.png" alt="Media Pembelajaran">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765380874/pmedia1_bzm8bp.png" alt="Media Pembelajaran">
         <h3>Buku Unboxing Jiometori Terintegrasi AR</h3>
       </div>
+      <div class="portfolio-item media">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765382683/Cover_Book_Scratch_emgtet.png" alt="Media Pembelajaran">
+        <h3>Buku Coding dengan Scratch By : Geraldi Valeska </h3>
+      </div>
       <div class="portfolio-item desain">
-        <img src="p3d1.png" alt="3D Desain">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765380875/p3d1_f273cj.png" alt="3D Desain">
         <h3>DIY Robotics Kit</h3>
       </div>
       <div class="portfolio-item custom">
-        <img src="pcustomproject1.png" alt="Custom Project">
-        <h3>Tugas Akhir</h3>
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765380874/pcustomproject2_jwsrkb.png" alt="Custom Project">
+        <h3>Penulisan Tugas Akhir</h3>
+      </div>
+      <div class="portfolio-item custom">
+        <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765383141/Poertpolio_3_onsejd.png" alt="Custom Project">
+        <h3>Aplikasi Listing Produk dengan Excel</h3>
       </div>
     </div>
-
-    <div class="portfolio-slide">
-      <div class="portfolio-item custom">
-        <img src="pcustomproject2.png" alt="Custom Project">
-        <h3>Penulisan Artikel</h3>
-      </div>
       <!-- Tambahkan item berikutnya di sini jika ada -->
     </div>
   </div>
@@ -251,21 +246,6 @@
   <button class="slider-btn right" onclick="moveSlide(1)">&#10095;</button>
 </div>
     </div>
-<script>
-  let currentSlide = 0;
-  const slider = document.querySelector(".portfolio-slider");
-  const totalSlides = document.querySelectorAll(".portfolio-slide").length;
-
-  function moveSlide(direction) {
-    currentSlide += direction;
-
-    if (currentSlide < 0) currentSlide = 0;
-    if (currentSlide >= totalSlides) currentSlide = totalSlides - 1;
-
-    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
-  }
-</script>
-
     <!-- Modal Image Viewer -->
 <div id="imageModal" class="modal">
   <span class="close">&times;</span>
@@ -342,6 +322,12 @@
           <p class="user-quote">"Penulisan artikel disini tepat sasaran, puas dengan hasilnya"</p>
           <h4 class="user-name">Dewi</h4>
           <span class="user-company">Mahasiswa</span>
+        </div>
+        <div class="testimoni-card">
+          <img src="user.png" alt="Klien 3" class="user-img">
+          <p class="user-quote">"Pembuatan website Garasi Cerdas berjalan sangat cepat. Hanya dalam 2 hari website sudah selesai dengan hasil yang benar-benar memuaskan"</p>
+          <h4 class="user-name">Bu Risma</h4>
+          <span class="user-company">Owner Bimbel Garasi Cerdas</span>
         </div>
         <!-- Tambahkan testimoni lainnya -->
       </div>
@@ -440,7 +426,7 @@
       <footer class="footer">
         <div class="footer-container">
           <div class="footer-column">
-            <img src="logo.png" alt="Logo Lyne Digital" class="footer-logo">
+            <img src="https://res.cloudinary.com/dpa5cmgmc/image/upload/v1765379657/Lyne_Digital_PNG_scu7fj.png" alt="Logo Lyne Digital" class="footer-logo">
             <p>Lyne Digital adalah layanan digital kreatif yang membantu Anda membangun kehadiran online secara profesional dan efektif.</p>
           </div>
       
@@ -473,7 +459,7 @@
       <script>
         document.getElementById("year").textContent = new Date().getFullYear();
       </script>
-      
+
   
 </body>
 </html>
